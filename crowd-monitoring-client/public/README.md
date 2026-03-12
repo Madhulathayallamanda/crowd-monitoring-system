@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Crowd Monitoring Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **frontend dashboard** for the **AI Crowd Monitoring System**.
+The client application visualizes crowd density data detected by the AI engine and processed by the backend server.
 
-## Available Scripts
+The dashboard allows users to monitor crowd statistics for different locations in real time.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Dashboard to monitor crowd activity
+* Real-time updates from backend API
+* Login system with protected routes
+* Displays crowd counts for monitored locations
+* Simple and responsive interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Frontend Framework
+React
 
-### `npm run build`
+Libraries
+React Router
+Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Development Tools
+Node.js
+npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+crowd-monitoring-client
+│
+├ public
+│ ├ index.html
+│ ├ manifest.json
+│ └ robots.txt
+│
+├ src
+│ ├ components
+│ │ └ PrivateRoute.js
+│ │
+│ ├ pages
+│ │ ├ Dashboard.js
+│ │ └ Login.js
+│ │
+│ ├ App.js
+│ ├ index.js
+│ ├ App.css
+│ └ index.css
+│
+├ package.json
+└ package-lock.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project was bootstrapped using Create React App.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install Dependencies
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run Development Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+Open the application in your browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+http://localhost:3000
 
-### Analyzing the Bundle Size
+The page will reload when you make changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### Run Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm test
 
-### Advanced Configuration
+Runs the test runner in interactive watch mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm run build
 
-### `npm run build` fails to minify
+Builds the application for production in the `build` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The build is optimized and minified for deployment.
+
+---
+
+### Eject Configuration
+
+npm run eject
+
+This command exposes the underlying configuration files.
+Note: this is irreversible.
+
+---
+
+## Integration with Backend
+
+The client communicates with the backend API to retrieve crowd monitoring data.
+
+Backend server repository:
+
+crowd-monitoring-server
+
+---
+
+## Related Modules
+
+This frontend works together with the following components:
+
+AI Detection Engine
+Python + YOLO
+
+Backend API
+Node.js + Express
+
+Together these modules form the **AI Crowd Monitoring System**.
