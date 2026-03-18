@@ -81,29 +81,6 @@ crowd-monitoring-system/
 │
 └── README.md
 ```
-crowd-monitoring-system
-│
-├ ai-crowd-engine
-│ └ detect.py
-│
-├ crowd-monitoring-server
-│ ├ package.json
-│ └ server
-│ ├ controllers
-│ ├ models
-│ ├ routes
-│ └ server.js
-│
-├ crowd-monitoring-client
-│ ├ public
-│ ├ src
-│ ├ package.json
-│ └ package-lock.json
-│
-└ README.md
-
----
-
 # Technologies Used
 
 ## Frontend
