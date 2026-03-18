@@ -151,16 +151,16 @@ python detect.py
 ## 📸 Screenshots
 
 ### 🏬 Mall Monitoring Dashboard
-![Mall](screenshots/mall_dashboard.png)
+![Mall](screenshots/mall_dashboard.jpeg)
 
 ### 👥 Crowd Detection (Mall)
-![Mall Detection](screenshots/mall_detection.png)
+![Mall Detection](screenshots/mall_detection.jpeg)
 
 ### ✈️ Airport Monitoring Dashboard
-![Airport](screenshots/airport_dashboard.png)
+![Airport](screenshots/airport_dashboard.jpeg)
 
 ### 🔗 API + Detection Output
-![API](screenshots/airport_detection_api.png)
+![API](screenshots/airport_detection.jpeg)
 
 # Use Cases
 
