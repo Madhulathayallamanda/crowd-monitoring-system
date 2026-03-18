@@ -60,6 +60,27 @@ Frontend Dashboard (React)
 
 # Project Structure
 
+```
+crowd-monitoring-system/
+│
+├── ai-crowd-engine/
+│   └── detect.py
+│
+├── crowd-monitoring-server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── package.json
+│   └── server.js
+│
+├── crowd-monitoring-client/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
+│
+└── README.md
+```
 crowd-monitoring-system
 │
 ├ ai-crowd-engine
