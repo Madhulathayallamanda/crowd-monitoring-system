@@ -148,6 +148,19 @@ cd ai-crowd-engine
 python detect.py
 
 ---
+## 📸 Screenshots
+
+### 🏬 Mall Monitoring Dashboard
+![Mall](screenshots/mall_dashboard.png)
+
+### 👥 Crowd Detection (Mall)
+![Mall Detection](screenshots/mall_detection.png)
+
+### ✈️ Airport Monitoring Dashboard
+![Airport](screenshots/airport_dashboard.png)
+
+### 🔗 API + Detection Output
+![API](screenshots/airport_detection_api.png)
 
 # Use Cases
 
