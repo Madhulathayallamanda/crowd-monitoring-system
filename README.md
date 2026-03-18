@@ -28,6 +28,21 @@ Although the current implementation uses recorded video streams for demonstratio
 • Modular and scalable system design
 
 ---
+## 📸 Screenshots
+
+### 🏬 Mall Monitoring Dashboard
+![Mall](screenshots/mall_dashboard.jpeg)
+
+### 👥 Crowd Detection (Mall)
+![Mall Detection](screenshots/mall_detection.jpeg)
+
+### ✈️ Airport Monitoring Dashboard
+![Airport](screenshots/airport_dashboard.jpeg)
+
+### 🔗 API + Detection Output
+![API](screenshots/airport_detection.jpeg)
+
+---
 
 # System Architecture
 
@@ -148,19 +163,6 @@ cd ai-crowd-engine
 python detect.py
 
 ---
-## 📸 Screenshots
-
-### 🏬 Mall Monitoring Dashboard
-![Mall](screenshots/mall_dashboard.jpeg)
-
-### 👥 Crowd Detection (Mall)
-![Mall Detection](screenshots/mall_detection.jpeg)
-
-### ✈️ Airport Monitoring Dashboard
-![Airport](screenshots/airport_dashboard.jpeg)
-
-### 🔗 API + Detection Output
-![API](screenshots/airport_detection.jpeg)
 
 # Use Cases
 
